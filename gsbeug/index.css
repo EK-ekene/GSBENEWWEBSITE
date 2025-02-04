@@ -70,7 +70,7 @@ html{
 .section-1-second-div {
     border-radius: 20px;
     background-color: #D9E1FC54;
-    height: fit-content;
+    height: auto;
     flex: 1;
 }
 
@@ -149,8 +149,7 @@ overflow: hidden;
 .section-1-third-div {
   border-radius: 20px;
   background-color: #D9E1FC54;
-  height: fit-content;
-  flex: 1;
+  height: auto;
 }
 
 .section-1-third-div ul,li{
