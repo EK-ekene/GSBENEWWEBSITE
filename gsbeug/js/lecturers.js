@@ -163,7 +163,7 @@ var col2=document.getElementById('level200')
     
 var col3=document.getElementById('level300')
 col3.style.backgroundColor='#ffd966';
-col3.style.color='black';
+col3.style.color='white';
 
 var col4=document.getElementById('level400')
     col4.style.backgroundColor='white';
@@ -230,7 +230,7 @@ col3.style.color='black';
 
 var col4=document.getElementById('level400')
     col4.style.backgroundColor='#ffd966';
-    col4.style.color='black';
+    col4.style.color='white';
     
 var col5=document.getElementById('level500')
 col5.style.backgroundColor='white';
@@ -565,3 +565,28 @@ var col8=document.getElementById('level800')
 col8.style.backgroundColor='white';
 col8.style.color='black'
 }
+
+
+
+
+function bar() {
+    var s=document.getElementById("aside");
+    var t= document.getElementById('asides');
+      t.style.display='none';
+    if (s.style.display === "block") {
+        s.style.display = "none";
+    } else {
+        s.style.display= "block";
+    }
+  }
+  
+  function bars() {
+    var s=document.getElementById("asides");
+    var t= document.getElementById('aside');
+      t.style.display='none';
+    if (s.style.display === "block") {
+        s.style.display = "none";
+    } else {
+        s.style.display= "block";
+    }
+  }

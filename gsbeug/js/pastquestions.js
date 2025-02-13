@@ -8,7 +8,7 @@ function filter1(){
     l400.style.display='none';
 var col=document.getElementById('level100')
     col.style.backgroundColor='#ffd966';
-    col.style.color='white'
+    col.style.color='#0a164e'
     
 var col2=document.getElementById('level200')
 col2.style.backgroundColor='white';
@@ -45,7 +45,7 @@ col.style.color='black'
 
 var col2=document.getElementById('level200')
 col2.style.backgroundColor='#ffd966';
-col2.style.color='white'
+col2.style.color='#0a164e'
 
 var col3=document.getElementById('level300')
 col3.style.backgroundColor='white';
@@ -82,7 +82,7 @@ col2.style.color='black'
 
 var col3=document.getElementById('level300')
 col3.style.backgroundColor='#ffd966';
-col3.style.color='white'
+col3.style.color='#0a164e'
 
 var col4=document.getElementById('level400')
 col4.style.backgroundColor='white';
@@ -119,7 +119,7 @@ col3.style.color='black'
 
 var col4=document.getElementById('level400')
 col4.style.backgroundColor='#ffd966';
-col4.style.color='white'
+col4.style.color='#0a164e'
  
     if(items.style.display=='grid'){
         items.style.display='none';
@@ -197,3 +197,28 @@ function searchMaterials4() {
         }
     }
 }
+
+
+
+
+function bar() {
+    var s=document.getElementById("aside");
+    var t= document.getElementById('asides');
+      t.style.display='none';
+    if (s.style.display === "block") {
+        s.style.display = "none";
+    } else {
+        s.style.display= "block";
+    }
+  }
+  
+  function bars() {
+    var s=document.getElementById("asides");
+    var t= document.getElementById('aside');
+      t.style.display='none';
+    if (s.style.display === "block") {
+        s.style.display = "none";
+    } else {
+        s.style.display= "block";
+    }
+  }
